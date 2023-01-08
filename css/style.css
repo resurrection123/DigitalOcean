@@ -1,0 +1,375 @@
+/* utility */
+:root{
+  --blue:#006aff;
+  --bg:#579aff;
+  --bg-red:#ef6c64;
+  --color-p:#5C6A88;
+}
+a{
+  color: inherit;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-weight: inherit;
+} 
+.d-block{
+  display: block;
+}
+.bold{
+  font-weight: bold;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+section   [class*="col-"]{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.circles{
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 10px;
+  border: 1px solid var(--bg);
+}
+.circles.full{
+  background-color: var(--bg);
+}
+p{
+  color: var(--color-p); 
+  font-size: 18px;
+  margin: 20px 0;
+}
+i{
+  vertical-align: middle;
+  padding-left: 5px;
+}
+section{
+  text-align: center;
+}
+section:not(:first-child){
+  margin: 80px 0;
+}
+.blue{
+  color: var(--bg);
+}
+.under:hover{
+  text-decoration: underline !important;
+}
+a:hover{
+  color: var(--blue);
+} 
+.row [class*="col-"] img{
+  width: 100%;
+}
+.w-100{
+  width: 100%;
+}
+.mb-10{
+  margin-bottom: 10px;
+}
+.m-tb-10{
+  margin: 10px 0;
+}
+.m-tb-20{
+  margin: 20px 0;
+}
+.text-white{
+  color: white;
+}
+input{
+  outline: none;
+  margin: 10px 0;
+}
+button{
+  outline: none !important;
+  font-weight: inherit !important;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+  margin: 10px 0;
+}
+.cm_btn{
+  border-color: var(--blue);
+  font-weight: inherit;
+  font-size: inherit;
+}
+/* utility */
+.cm_navbar{
+  height: 75px;
+  font-size: 13px;
+  line-height: 75px;
+  color:rgb(39, 36, 36);
+  font-weight: bold;
+  background-color: white;
+}
+.cm_navbar .row [class*="col-"] img{
+  width: 80%;
+  min-width: 160px;
+  vertical-align: middle;
+  margin-top: -6px;
+}
+.cm_navbar ul{
+  display: inline-block;
+  padding: 0 10px;
+}
+.cm_navbar ul li{
+  display: inline-block;
+  padding-right: 20px;
+} 
+.cm_navbar .hidden-lg{
+  font-size: 30px;
+}
+header .jumbotron{
+  margin-top: 75px;
+  background-image: url("../img/bg-home-1.jpg");
+  background-size: cover;
+  color: white;
+} 
+header .jumbotron h1{
+  font-size: 53px;
+} 
+header .jumbotron p{
+  color:#bbcdff;
+} 
+header .jumbotron .deploy{
+  background-color: white;
+  color: black;
+  padding: 20px 15px;
+  border-radius: 7px;
+  font-weight: bold; 
+  font-size: 15px;
+}
+header .jumbotron .deploy h2:last-of-type{
+  color: var(--blue);
+}
+header .jumbotron .deploy button {
+  position: relative;
+  font-size: inherit;
+}
+header .jumbotron .deploy button img{
+  width: 20px;
+  position: absolute;
+  left: 5px;
+}
+header .jumbotron .deploy .btn-g:hover{
+  background-color: var(--bg-red);
+  color: white;
+}
+header .jumbotron .deploy button:not(.btn-g){
+  background-color: var(--bg);
+}
+header .jumbotron .deploy span {
+  font-weight:600;
+  font-size: 11px;
+  display: inline-block;
+  margin: 15px 0;
+}
+header .jumbotron .deploy span a:hover {
+  text-decoration: underline !important;
+}
+main #innovatice{
+  font-size: 20px;
+}
+main #innovatice .row img{
+  max-width: 150px;
+}
+main #innovatice .tools{
+  margin: 35px 0;
+  line-height: 100px;
+}
+#deploy{
+  font-size: 18px;
+}
+#deploy .content-deploy{
+  margin-top:60px ;
+}
+#deploy .content-deploy ul {
+  padding: 0;
+}
+#deploy .content-deploy ul li{
+  display: block;
+  border-left: 4px solid #E5E8ED; 
+  padding: 15px 10px ;
+  font-size: 22px;
+  color: var(--bg);
+}
+#deploy .content-deploy ul li:hover{
+  border-color: var(--bg); 
+}
+#deploy .content-deploy .content-right img{
+  width: 40px;
+  height: 40px;
+}
+#deploy .content-deploy .content-right h3{
+  font-size: 22px;
+}
+#designed .content-design img{
+  width: 50%;
+  margin: 20px 0 ;
+}
+#designed .content-design i{
+  font-size: 55px;
+}
+#designed .content-design  [class*="left"]{
+  color: #6F7B97;
+}
+.length{
+  margin: 30px 0;
+}
+#features .content {
+  margin-top: 55px;
+  font-size: 18px;
+}
+#features .content img{
+  width: 60px;
+  height: 60px;
+}
+#service{
+  background-color: #003ab7;
+  color: white;
+  padding: 80px 0;
+  font-size: 20px;
+}
+#service .content{
+  text-align: left; 
+  color: #00d7d2;
+}
+#service  ul li{
+  margin: 5px 0;
+  padding: 5px 0;
+}
+#service ul li:not(:last-child){
+  border-bottom: 1px solid white;
+}
+#service ul li .content span:first-of-type{
+  color: white;
+  margin-right: 30px ;
+}
+#service ul li .content a{
+  float: right;
+}
+#service ul li .content::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+#service ul li .content a:hover{
+  color: #a6ff00;
+}
+#service ul li .content span{
+  width: calc(100% / 3);
+}
+#slider .slider{
+  margin: 80px 0;
+}
+#slider .slider p{
+  font-size: 24px;
+}
+#slider .slider .content-slider img{
+  width: 30%;
+  min-width: 200px;
+}
+#slider .slider .content-slider span:last-of-type{
+  font-size: 14px;
+}
+#slider .slider p{
+  margin: 30px 0;
+}
+#slider .slider  .row [class*="col-"]> i{
+  font-size: 30px;
+  margin-top: 60px;
+}
+#started{
+  padding: 40px 0;
+  background-color: #0037B0;
+  color: white;
+  font-size: 18px;
+  margin:80px 0 0;
+}
+#started h1{
+ margin-bottom: 40px;
+}
+#started a{
+  color: var(--blue);
+ }
+footer{
+  background-color: #031C4E;
+  padding: 60px 0;
+   color: #8791A7;
+  font-size: 15px;
+}
+footer  .row [class*="col-"] img{
+  width: 40px;
+}
+footer .social{
+  font-size: 30px;
+  margin-top: 10px;
+}
+footer .social i{
+  padding: 0;
+  padding-right: 10px;
+}
+footer .social i:hover{
+  color: rgb(194, 32, 32);
+}
+footer .row h3{
+  color: white;
+}
+footer ul  {
+  margin-left: 10px;
+}
+footer ul li {
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+footer ul li a:hover {
+  color: #9df0a1;
+  font-size: 17px !important;
+}
+.chatbot{
+  position: fixed;
+  bottom:40px;
+  right: 60px;
+}
+.chatbot img{
+  width: 70px;
+  background-color: #006AFF;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+.chatbot .icon  span{
+  position: absolute;
+  top: -12px;
+  right: -11px;
+  color: white;
+  font-size: 14px;
+  background-color: red;
+  padding: 2px 9px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+.chatbot .chat{
+  display: none;
+  margin-right: 20px;
+  background-color: white;
+  padding: 30px 20px;
+  font-size: 18px;
+  width: 300px;
+  vertical-align: bottom;
+  position: relative;
+}
+.chatbot .chat i{
+position: absolute;
+right: -6px;
+color: white;
+}
+.chatbot:hover .chat{
+  display: inline-block;
+}
+.chatbot .icon{
+  display: inline-block;
+  position: relative;
+}
